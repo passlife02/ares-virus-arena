@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 969be28a518547644b23880da9c414d5, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  moveSpeed: 5.2
+  moveAccel: 55
+  moveStopDecel: 70
+  moveTurnDecel: 90
+  playerRadius: 0.34
+  rollDistance: 3.1
+  rollDuration: 0.21
+  rollCooldown: 1
+  rollInvulnTime: 0.32
+  cameraSize: 5.9
+  cameraFollowLerp: 8.5
+  cameraAimOffset: 1.2
+  cameraMaxAimOffset: 2.4
+  cameraShakeDecay: 5.5
+  cameraShakeMax: 0.55
+  fireInterval: 0.14
+  bulletSpeed: 19
+  bulletLife: 1.05
+  bulletRadius: 0.12
+  bulletSpreadDeg: 2.2
+  recoilKick: 0.9
+  meleeSwingTime: 0.22
+  meleeArcDeg: 110
+  meleeKnockback: 5
+  meleeRecoverTime: 0.1
+  critChance: 0.18
+  critMultiplier: 2
+  hitStopTime: 0.045
+  hitStopScale: 0.05
+  playerMaxHp: 120
+  playerHurtInvuln: 0.4
+  playerHurtKnockback: 3.2
+  meleeHp: 46
+  meleeSpeed: 2.65
+  meleeRadius: 0.42
+  meleeAttackRange: 1.05
+  meleeWindup: 0.45
+  meleeCooldown: 1.15
+  meleeDamage: 10
+  meleeEnemyKnockback: 5.5
+  rangedHp: 34
+  rangedSpeed: 1.9
+  rangedRadius: 0.44
+  rangedIdealDist: 5.6
+  rangedKeepDist: 3.4
+  rangedMaxRange: 9.5
+  rangedWindup: 0.7
+  rangedCooldown: 2
+  rangedDamage: 8
+  rangedProjectileSpeed: 8.5
+  rangedMaxProjectiles: 40
+  bossHpMul: 3.5
+  bossDamageMul: 2.2
+  bossSizeMul: 1.55
+  bossSpeedMul: 0.85
+  bossAttackRange: 1.6
+  bossWindup: 0.6
+  bossCooldown: 1
+  wavesPerBoss: 10
+  maxDifficultyWave: 30
+  hpPerWave: 0.12
+  dmgPerWave: 0.05
+  countPerWave: 0.35
+  waveInterval: 7
+  waveClearBonusTime: 6
+  spawnMaxAliveNormal: 40
+  spawnScatter: 0.9
+  stressVisualThreshold: 60
+  pickupRadius: 1.9
+  corpseFadeTime: 1
+  minimapWorldRange: 11
+  minimapRotateLerp: 6
+  stressCounts: 64000000f4010000e8030000

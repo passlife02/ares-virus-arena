@@ -1,0 +1,20 @@
+{
+  "drops": [
+    {"enemy":"Melee","item":"mat_mutou","chance":0.55,"min":1,"max":2},
+    {"enemy":"Melee","item":"mat_jiaodai","chance":0.22,"min":1,"max":1},
+    {"enemy":"Melee","item":"mat_shengtie","chance":0.18,"min":1,"max":1},
+    {"enemy":"Melee","item":"mat_masheng","chance":0.15,"min":1,"max":1},
+    {"enemy":"Melee","item":"wep_dao","chance":0.05,"min":1,"max":1},
+    {"enemy":"Ranged","item":"mat_yumao","chance":0.55,"min":1,"max":3},
+    {"enemy":"Ranged","item":"ammo_yumaojian","chance":0.42,"min":2,"max":5},
+    {"enemy":"Ranged","item":"mat_jiaodai","chance":0.15,"min":1,"max":1},
+    {"enemy":"Ranged","item":"mat_yaocao","chance":0.18,"min":1,"max":2},
+    {"enemy":"Ranged","item":"wep_gong","chance":0.03,"min":1,"max":1},
+    {"enemy":"Boss","item":"mat_shengtie","chance":0.95,"min":2,"max":4},
+    {"enemy":"Boss","item":"ammo_huoyao","chance":0.85,"min":5,"max":10},
+    {"enemy":"Boss","item":"mat_yaocao","chance":0.6,"min":2,"max":3},
+    {"enemy":"Boss","item":"wep_huoqiang","chance":0.35,"min":1,"max":1},
+    {"enemy":"Boss","item":"wep_dao_jing","chance":0.35,"min":1,"max":1},
+    {"enemy":"Boss","item":"ammo_yumaojian","chance":0.55,"min":6,"max":12}
+  ]
+}

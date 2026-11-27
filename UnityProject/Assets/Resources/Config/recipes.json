@@ -1,0 +1,13 @@
+{
+  "recipes": [
+    {"id":"r_dao","output":"wep_dao","outputCount":1,"input1":"mat_mutou","count1":4,"input2":"mat_shengtie","count2":2,"category":"武器"},
+    {"id":"r_dao_jing","output":"wep_dao_jing","outputCount":1,"input1":"mat_shengtie","count1":8,"input2":"wep_dao","count2":1,"category":"武器"},
+    {"id":"r_gong","output":"wep_gong","outputCount":1,"input1":"mat_mutou","count1":6,"input2":"mat_yumao","count2":4,"category":"武器"},
+    {"id":"r_huoqiang","output":"wep_huoqiang","outputCount":1,"input1":"mat_shengtie","count1":6,"input2":"mat_masheng","count2":2,"category":"武器"},
+    {"id":"r_bengdai","output":"tool_bengdai","outputCount":1,"input1":"mat_yaocao","count1":2,"input2":"mat_jiaodai","count2":1,"category":"消耗品"},
+    {"id":"r_grenade","output":"tool_grenade","outputCount":2,"input1":"mat_shengtie","count1":2,"input2":"ammo_huoyao","count2":3,"category":"消耗品"},
+    {"id":"r_fence","output":"tool_fence","outputCount":2,"input1":"mat_mutou","count1":6,"input2":"mat_masheng","count2":1,"category":"消耗品"},
+    {"id":"r_huoyao","output":"ammo_huoyao","outputCount":4,"input1":"mat_shengtie","count1":1,"input2":"mat_masheng","count2":1,"category":"弹药"},
+    {"id":"r_yumaojian","output":"ammo_yumaojian","outputCount":6,"input1":"mat_mutou","count1":1,"input2":"mat_yumao","count2":2,"category":"弹药"}
+  ]
+}

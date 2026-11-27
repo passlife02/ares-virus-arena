@@ -1,0 +1,103 @@
+阿瑞斯病毒竞技场 · 核心类索引
+============================================================
+
+
+【Combat】
+  class    Barrel                   : MonoBehaviour   (Barrel.cs)
+  class    CombatSystem             : MonoBehaviour   (CombatSystem.cs)
+  class    Fence                    : MonoBehaviour   (Fence.cs)
+  class    Fx                         (Fx.cs)
+  class    FxSprite                 : MonoBehaviour   (Fx.cs)
+  class    Grenade                  : MonoBehaviour   (Grenade.cs)
+  class    HitSpark                 : MonoBehaviour   (HitSpark.cs)
+  class    Projectile               : MonoBehaviour   (Projectile.cs)
+  class    SectorTelegraph          : MonoBehaviour   (SectorTelegraph.cs)
+  class    SheetFx                  : MonoBehaviour   (SheetFx.cs)
+  class    WarnPip                  : MonoBehaviour   (WarnPip.cs)
+  class    WebProjectile            : MonoBehaviour   (WebProjectile.cs)
+
+【Core】
+  class    ArenaLayout              : MonoBehaviour   (ArenaLayout.cs)
+  class    AudioManager             : MonoBehaviour   (AudioManager.cs)
+  struct   DamageInfo                 (DamageInfo.cs)
+  enum     EnemyKind                  (GameConfig.cs)
+  class    Game                       (Game.cs)
+  class    GameConfig               : ScriptableObject   (GameConfig.cs)
+  class    GameManager              : MonoBehaviour   (GameManager.cs)
+  enum     GamePhase                  (GameConfig.cs)
+  interface IDamageable                (DamageInfo.cs)
+  class    InputService               (InputService.cs)
+  class    MapBuilder                 (MapVariants.cs)
+  class    MapTransition            : MonoBehaviour   (MapTransition.cs)
+  enum     MapVariant                 (MapVariants.cs)
+  class    Motion                     (Motion.cs)
+  class    ObjectPool                 (ObjectPool.cs)
+  class    SpatialHash                (ObjectPool.cs)
+  class    Trailer                  : MonoBehaviour   (Trailer.cs)
+  class    WaterMaterial              (MapVariants.cs)
+  class    WaterSurface             : MonoBehaviour   (WaterSurface.cs)
+  enum     WeaponKind                 (GameConfig.cs)
+  class    Weather                  : MonoBehaviour   (Weather.cs)
+
+【Enemies】
+  class    BossEnemy                : MeleeEnemy   (BossEnemy.cs)
+  class    EnemyBase                : MonoBehaviour, IDamageable   (EnemyBase.cs)
+  class    EnemySpawner             : MonoBehaviour   (EnemySpawner.cs)
+  class    MeleeEnemy               : EnemyBase   (MeleeEnemy.cs)
+  class    RangedEnemy              : EnemyBase   (RangedEnemy.cs)
+  class    SpiderEgg                : MonoBehaviour   (SpiderEgg.cs)
+  enum     Variant                    (BossEnemy.cs)
+
+【Items】
+  class    ArmorDef                   (Armors.cs)
+  class    Armors                     (Armors.cs)
+  class    Blessing                   (WeaponMods.cs)
+  class    CraftingSystem           : MonoBehaviour   (CraftingSystem.cs)
+  struct   Def                        (WeaponMods.cs)
+  struct   Def                        (WeaponMods.cs)
+  class    DropEntry                  (ItemDef.cs)
+  class    DropTable                  (ItemDef.cs)
+  class    Enhancement                (Enhancement.cs)
+  class    EquipmentModel             (EquipmentModel.cs)
+  class    InventoryModel             (InventoryModel.cs)
+  class    InventorySlot              (InventoryModel.cs)
+  class    ItemDatabase             : MonoBehaviour   (ItemDatabase.cs)
+  class    ItemDef                    (ItemDef.cs)
+  class    ItemList                   (ItemDef.cs)
+  class    LootPickup               : MonoBehaviour   (LootPickup.cs)
+  class    Milestones                 (WeaponMods.cs)
+  class    RecipeDef                  (ItemDef.cs)
+  class    RecipeList                 (ItemDef.cs)
+  class    WeaponMod                  (WeaponMods.cs)
+  class    WeaponMods                 (WeaponMods.cs)
+
+【Nav】
+  class    GridNav                    (GridNav.cs)
+
+【Player】
+  class    CameraRig                : MonoBehaviour   (CameraRig.cs)
+  class    MeleeArcView             : MonoBehaviour   (MeleeArcView.cs)
+  class    PlayerCombat             : MonoBehaviour   (PlayerCombat.cs)
+  class    PlayerController         : MonoBehaviour, IDamageable   (PlayerController.cs)
+  class    PlayerRig                : MonoBehaviour   (PlayerRig.cs)
+
+【Save】
+  class    SaveService              : MonoBehaviour   (SaveService.cs)
+  class    Sqlite3                    (SqliteNative.cs)
+  class    SqliteDb                 : IDisposable   (SqliteNative.cs)
+  class    SqliteStatement          : IDisposable   (SqliteNative.cs)
+
+【UI】
+  class    CodexUI                  : MonoBehaviour   (CodexUI.cs)
+  class    EnemyBars                : MonoBehaviour   (EnemyBars.cs)
+  class    HudUI                    : MonoBehaviour   (HudUI.cs)
+  class    InventoryUI              : MonoBehaviour   (InventoryUI.cs)
+  class    LoreUI                   : MonoBehaviour   (LoreUI.cs)
+  class    MenuUI                   : MonoBehaviour   (MenuUI.cs)
+  class    MinimapUI                : MonoBehaviour   (MinimapUI.cs)
+  class    ShelterUI                : MonoBehaviour   (ShelterUI.cs)
+  class    StoryUI                  : MonoBehaviour   (StoryUI.cs)
+  class    UiDragSlot               : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler   (UiDragSlot.cs)
+  class    UiFactory                  (UiFactory.cs)
+  class    UiHover                  : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler   (UiHover.cs)
+  class    UiPressFx                : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler,   (UiPressFx.cs)
