@@ -1,0 +1,26 @@
+# Unity 工程常用属性：让 YAML 场景/预制体可以正常 diff 与合并
+* text=auto
+
+*.cs      text diff=csharp
+*.shader  text
+*.json    text
+*.md      text
+
+*.unity     text eol=lf merge=unityyamlmerge
+*.prefab    text eol=lf merge=unityyamlmerge
+*.asset     text eol=lf merge=unityyamlmerge
+*.anim      text eol=lf merge=unityyamlmerge
+*.controller text eol=lf merge=unityyamlmerge
+*.mat       text eol=lf merge=unityyamlmerge
+*.meta      text eol=lf
+
+*.png   binary
+*.jpg   binary
+*.psd   binary
+*.mp3   binary
+*.wav   binary
+*.ogg   binary
+*.dll   binary
+*.mp4   binary
+*.docx  binary
+*.xlsx  binary
