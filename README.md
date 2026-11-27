@@ -5,6 +5,19 @@
 > 本仓库**不含** Windows 构建产物与个人简历。构建包体积超过 GitHub 单文件 100 MB 上限，
 > 如需试玩请用 Release 附件分发，或本地用 Unity 2022.3 打开 `UnityProject/` 直接运行。
 
+## 截图
+
+| | |
+|---|---|
+| ![中心湖与雨天](docs/screenshots/01_雨天与中心湖.png) | ![湖面](docs/screenshots/02_中心湖水面.png) |
+| 中心湖地图 + 降雨粒子 | 手绘池塘与水面波纹 |
+| ![波次](docs/screenshots/03_波次与BOSS血条.png) | ![近战](docs/screenshots/04_近战与怪物血条.png) |
+| 波次提示与 BOSS 血条 | 近战挥砍与怪物血条 |
+| ![商人](docs/screenshots/05_商人界面与立绘.png) | ![地图选择](docs/screenshots/08_主界面地图选择.png) |
+| 商人界面（立绘 + 对话） | 主界面地图选择 |
+| ![漫剧](docs/screenshots/06_宣传片_漫剧.png) | ![标题卡](docs/screenshots/07_宣传片_标题卡.png) |
+| 开场漫剧（分镜 + 拟声） | 标题卡（徽标 + 按任意键） |
+
 ## 玩法
 
 - **波次生存**：1 / 5 / 10 / 20 / 30 / 无尽；敌人血量 +12%/波、伤害 +5%/波，第 30 波封顶
